@@ -1,0 +1,12 @@
+C:\Projetos\Drone\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.Tests.dll
+C:\Projetos\Drone\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.Tests.pdb
+C:\Projetos\Drone\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.dll
+C:\Projetos\Drone\Algorithm.Logic.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Projetos\Drone\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.pdb
+C:\Projetos\Drone\Algorithm.Logic.Tests\bin\Debug\Algorithm.Logic.dll.config
+C:\Projetos\Drone\Algorithm.Logic.Tests\bin\Debug\pt-BR\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Projetos\Drone\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csprojAssemblyReference.cache
+C:\Projetos\Drone\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csproj.CoreCompileInputs.cache
+C:\Projetos\Drone\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.csproj.CopyComplete
+C:\Projetos\Drone\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.dll
+C:\Projetos\Drone\Algorithm.Logic.Tests\obj\Debug\Algorithm.Logic.Tests.pdb

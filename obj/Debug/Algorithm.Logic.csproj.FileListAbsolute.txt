@@ -1,0 +1,7 @@
+C:\Projetos\Drone\bin\Debug\Algorithm.Logic.dll.config
+C:\Projetos\Drone\bin\Debug\Algorithm.Logic.dll
+C:\Projetos\Drone\bin\Debug\Algorithm.Logic.pdb
+C:\Projetos\Drone\obj\Debug\Algorithm.Logic.csprojAssemblyReference.cache
+C:\Projetos\Drone\obj\Debug\Algorithm.Logic.csproj.CoreCompileInputs.cache
+C:\Projetos\Drone\obj\Debug\Algorithm.Logic.dll
+C:\Projetos\Drone\obj\Debug\Algorithm.Logic.pdb
