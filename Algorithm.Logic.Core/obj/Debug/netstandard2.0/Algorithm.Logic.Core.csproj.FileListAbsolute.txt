@@ -22,3 +22,15 @@ C:\Projetos\Algorithm.Logic\Algorithm.Logic.Core\obj\Debug\netstandard2.0\Algori
 C:\Projetos\Algorithm.Logic\Algorithm.Logic.Core\obj\Debug\netstandard2.0\Algorithm.Logic.Core.csproj.CopyComplete
 C:\Projetos\Algorithm.Logic\Algorithm.Logic.Core\obj\Debug\netstandard2.0\Algorithm.Logic.Core.dll
 C:\Projetos\Algorithm.Logic\Algorithm.Logic.Core\obj\Debug\netstandard2.0\Algorithm.Logic.Core.pdb
+C:\teste\Algorithm.Logic\Algorithm.Logic.Core\bin\Debug\netstandard2.0\Algorithm.Logic.Core.deps.json
+C:\teste\Algorithm.Logic\Algorithm.Logic.Core\bin\Debug\netstandard2.0\Algorithm.Logic.Core.dll
+C:\teste\Algorithm.Logic\Algorithm.Logic.Core\bin\Debug\netstandard2.0\Algorithm.Logic.Core.pdb
+C:\teste\Algorithm.Logic\Algorithm.Logic.Core\bin\Debug\netstandard2.0\Algorithm.Logic.Shared.dll
+C:\teste\Algorithm.Logic\Algorithm.Logic.Core\bin\Debug\netstandard2.0\Algorithm.Logic.Shared.pdb
+C:\teste\Algorithm.Logic\Algorithm.Logic.Core\obj\Debug\netstandard2.0\Algorithm.Logic.Core.csprojAssemblyReference.cache
+C:\teste\Algorithm.Logic\Algorithm.Logic.Core\obj\Debug\netstandard2.0\Algorithm.Logic.Core.csproj.CoreCompileInputs.cache
+C:\teste\Algorithm.Logic\Algorithm.Logic.Core\obj\Debug\netstandard2.0\Algorithm.Logic.Core.AssemblyInfoInputs.cache
+C:\teste\Algorithm.Logic\Algorithm.Logic.Core\obj\Debug\netstandard2.0\Algorithm.Logic.Core.AssemblyInfo.cs
+C:\teste\Algorithm.Logic\Algorithm.Logic.Core\obj\Debug\netstandard2.0\Algorithm.Logic.Core.csproj.CopyComplete
+C:\teste\Algorithm.Logic\Algorithm.Logic.Core\obj\Debug\netstandard2.0\Algorithm.Logic.Core.dll
+C:\teste\Algorithm.Logic\Algorithm.Logic.Core\obj\Debug\netstandard2.0\Algorithm.Logic.Core.pdb
