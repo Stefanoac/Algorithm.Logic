@@ -62,6 +62,17 @@ namespace Algorithm.Logic.Core
         {
             return (Regex.IsMatch(input, @"[X]\d") || Regex.IsMatch(input, @"[^SNLOX0-9]")
                    || Regex.IsMatch(input, @"^\d") || !Regex.IsMatch(input, @"[A-Z]([1-9]|214748364[0-6])?[A-Z]"));
+
+            //var numbers = Regex.Split(input, @"\D+");
+
+            //foreach (string value in numbers)
+            //{
+            //    if (!string.IsNullOrEmpty(value))
+            //    {
+            //        int i = int.Parse(value);
+            //        Console.WriteLine("Number: {0}", i);
+            //    }
+            //}
         }
     }
 }
