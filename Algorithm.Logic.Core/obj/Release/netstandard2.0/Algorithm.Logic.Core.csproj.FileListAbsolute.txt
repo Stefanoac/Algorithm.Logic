@@ -1,0 +1,12 @@
+C:\Projetos\Algorithm.Logic.Core\bin\Release\netstandard2.0\Algorithm.Logic.Core.deps.json
+C:\Projetos\Algorithm.Logic.Core\bin\Release\netstandard2.0\Algorithm.Logic.Core.dll
+C:\Projetos\Algorithm.Logic.Core\bin\Release\netstandard2.0\Algorithm.Logic.Core.pdb
+C:\Projetos\Algorithm.Logic.Core\bin\Release\netstandard2.0\Algorithm.Logic.Shared.dll
+C:\Projetos\Algorithm.Logic.Core\bin\Release\netstandard2.0\Algorithm.Logic.Shared.pdb
+C:\Projetos\Algorithm.Logic.Core\obj\Release\netstandard2.0\Algorithm.Logic.Core.csprojAssemblyReference.cache
+C:\Projetos\Algorithm.Logic.Core\obj\Release\netstandard2.0\Algorithm.Logic.Core.csproj.CoreCompileInputs.cache
+C:\Projetos\Algorithm.Logic.Core\obj\Release\netstandard2.0\Algorithm.Logic.Core.AssemblyInfoInputs.cache
+C:\Projetos\Algorithm.Logic.Core\obj\Release\netstandard2.0\Algorithm.Logic.Core.AssemblyInfo.cs
+C:\Projetos\Algorithm.Logic.Core\obj\Release\netstandard2.0\Algorithm.Logic.Core.csproj.CopyComplete
+C:\Projetos\Algorithm.Logic.Core\obj\Release\netstandard2.0\Algorithm.Logic.Core.dll
+C:\Projetos\Algorithm.Logic.Core\obj\Release\netstandard2.0\Algorithm.Logic.Core.pdb

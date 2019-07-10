@@ -1,0 +1,12 @@
+C:\Projetos\Algorithm.Logic\Algorithm.Logic.Tests\bin\Release\Algorithm.Logic.Tests.dll
+C:\Projetos\Algorithm.Logic\Algorithm.Logic.Tests\bin\Release\Algorithm.Logic.Tests.pdb
+C:\Projetos\Algorithm.Logic\Algorithm.Logic.Tests\bin\Release\Algorithm.Logic.dll
+C:\Projetos\Algorithm.Logic\Algorithm.Logic.Tests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Projetos\Algorithm.Logic\Algorithm.Logic.Tests\bin\Release\Algorithm.Logic.pdb
+C:\Projetos\Algorithm.Logic\Algorithm.Logic.Tests\bin\Release\Algorithm.Logic.dll.config
+C:\Projetos\Algorithm.Logic\Algorithm.Logic.Tests\bin\Release\pt-BR\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Projetos\Algorithm.Logic\Algorithm.Logic.Tests\obj\Release\Algorithm.Logic.Tests.csprojAssemblyReference.cache
+C:\Projetos\Algorithm.Logic\Algorithm.Logic.Tests\obj\Release\Algorithm.Logic.Tests.csproj.CoreCompileInputs.cache
+C:\Projetos\Algorithm.Logic\Algorithm.Logic.Tests\obj\Release\Algorithm.Logic.Tests.csproj.CopyComplete
+C:\Projetos\Algorithm.Logic\Algorithm.Logic.Tests\obj\Release\Algorithm.Logic.Tests.dll
+C:\Projetos\Algorithm.Logic\Algorithm.Logic.Tests\obj\Release\Algorithm.Logic.Tests.pdb

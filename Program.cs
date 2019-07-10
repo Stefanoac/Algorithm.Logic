@@ -1,14 +1,21 @@
-﻿
+﻿using Algorithm.Logic.Core;
+using Algorithm.Logic.Shared.Interface;
+using SimpleInjector;
+
 namespace Algorithm.Logic
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text.RegularExpressions;
-
-    public class Program
+    public static class Program
     {
-        private static readonly int _maxNumber = 2147483647;
+        private static readonly Container container;
+
+        static Program()
+        {
+            container = new Container();
+            container.Register<IProcessamento, Processamento>();
+
+            container.Verify();
+        }
+
         /// <summary>
         /// PROBLEMA:
         /// 
@@ -41,129 +48,10 @@ namespace Algorithm.Logic
         /// <returns>String representando o ponto cartesiano após a execução dos comandos (X, Y)</returns>
         public static string Evaluate(string input)
         {
-            float x = 0;
-            float y = 0;
+            var service = container.GetInstance<IProcessamento>();
+            var retorno = service.Processar(input);
 
-            // Verifico aqui, se é nulo o vazio, se é somente numero e se inicia com numero
-            if (string.IsNullOrWhiteSpace(input) || input.All(char.IsDigit) || IniciaComNumero(input))
-                return "(999, 999)";
-
-            try
-            {
-                var inputSemSX = input.Replace("SX", string.Empty);
-
-                var array = MontaArrayFinal(inputSemSX);
-
-                var norte = array.Where(n => n.Equals("N")).Count();
-                var sul = array.Where(s => s.Equals("S")).Count();
-                var leste = array.Where(l => l.Equals("L")).Count();
-                var oeste = array.Where(o => o.Equals("O")).Count();
-
-                x = leste - oeste;
-                y = norte - sul;
-
-                return string.Format("({0}, {1})", x.ToString(), y.ToString());
-            }
-            catch
-            {
-                return "(999, 999)";
-            }            
+            return retorno;
         }
-
-        private static string[] MontaArrayFinal(string input)
-        {
-            var lista = new List<string>();
-            var lastChar = '\0';
-            var quantidadePasso = string.Empty;
-
-            var inputLenght = input.ToCharArray().Count();
-
-            for (int i = 0; i < inputLenght; i++)
-            {
-                // Faz validação se contem apenas operacoes validas
-                Validacoes(input, lastChar, i);
-
-                //operação atual é "passo"
-                if (char.IsDigit(input[i]))
-                {
-                    //Vou concatenando na variavel os numeros que tem a quantidade de "passo"
-                    quantidadePasso = string.Concat(quantidadePasso, input[i]);
-
-                    //Vejo se existe o proximo indice no array
-                    if (input.Length > i + 1)
-                    {
-                        //Se sim, verifico se é numero, se não for faço a multiplicação da operação
-                        if (char.IsDigit(input[i + 1]))
-                        {
-                            continue;
-                        }
-                    }
-
-                    MultiplicaOperacao(lastChar, quantidadePasso, lista);
-                    quantidadePasso = string.Empty;
-                    continue;
-                }
-
-                if (input[i].Equals('X'))
-                    lista.RemoveAt(lista.Count() - 1);
-                else
-                    lista.Add(input[i].ToString());
-
-                lastChar = input[i];
-            }
-
-            return lista.ToArray();
-        }
-
-        private static void MultiplicaOperacao(char lastChar, string value, List<string> lista)
-        {
-            var parse = Int32.TryParse(value.ToString(), out Int32 result);
-
-            if (parse)
-            {
-                // removo o caracter inserido por ultimo.
-                lista.RemoveAt(lista.Count() - 1);
-
-                // reinsiro o caracter com a quantidade de operações passadas
-                for (int i = 0; i < result; i++)
-                {
-                    lista.Add(lastChar.ToString());
-                }
-            }
-            else
-            {
-                throw new Exception(@"Overflow");
-            }
-        }
-
-        private static void Validacoes(string input, char lastChar, int i)
-        {
-            if (lastChar.Equals('X') && char.IsDigit(input[i]))
-                throw new Exception(@"operação 'X' não suporta opção de 'passo'");
-            else if (!char.IsDigit(input[i]) && !ComandoValido(input[i]))
-                throw new Exception(@"contém operações inválidas");
-        }
-
-        #region Validações
-
-        private static List<char> _comandos = new List<char>(new char[] { 'N', 'S', 'L', 'O', 'X'});
-        private static bool ComandoValido(char value)
-        {
-            return _comandos.Contains(value);
-        }
-
-        public static bool IniciaComNumero(string input)
-        {
-            return ValidaRegex(@"^\d", input);
-        }
-
-        //Criei essa validação por regex, pois pode ser reaproveitado para outras validações
-        private static bool ValidaRegex(string regex, string input)
-        {
-            var r = new Regex(regex);
-            return r.Match(input).Success;
-        }
-
-        #endregion
     }
 }

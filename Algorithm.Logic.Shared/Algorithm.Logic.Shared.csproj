@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Algorithm.Logic.Shared</AssemblyName>
+    <RootNamespace>Algorithm.Logic.Shared</RootNamespace>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+C:\Projetos\Algorithm.Logic.Shared\bin\Release\netstandard2.0\Algorithm.Logic.Shared.deps.json
+C:\Projetos\Algorithm.Logic.Shared\bin\Release\netstandard2.0\Algorithm.Logic.Shared.dll
+C:\Projetos\Algorithm.Logic.Shared\bin\Release\netstandard2.0\Algorithm.Logic.Shared.pdb
+C:\Projetos\Algorithm.Logic.Shared\obj\Release\netstandard2.0\Algorithm.Logic.Shared.csproj.CoreCompileInputs.cache
+C:\Projetos\Algorithm.Logic.Shared\obj\Release\netstandard2.0\Algorithm.Logic.Shared.AssemblyInfoInputs.cache
+C:\Projetos\Algorithm.Logic.Shared\obj\Release\netstandard2.0\Algorithm.Logic.Shared.AssemblyInfo.cs
+C:\Projetos\Algorithm.Logic.Shared\obj\Release\netstandard2.0\Algorithm.Logic.Shared.dll
+C:\Projetos\Algorithm.Logic.Shared\obj\Release\netstandard2.0\Algorithm.Logic.Shared.pdb
