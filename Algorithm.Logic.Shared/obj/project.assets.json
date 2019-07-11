@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stefano.caberlon\\.nuget\\packages\\": {},
+    "C:\\Users\\stefa\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\teste\\Algorithm.Logic\\Algorithm.Logic.Shared\\Algorithm.Logic.Shared.csproj",
+      "projectUniqueName": "C:\\Projetos\\Algorithm.Logic\\Algorithm.Logic.Shared\\Algorithm.Logic.Shared.csproj",
       "projectName": "Algorithm.Logic.Shared",
-      "projectPath": "C:\\teste\\Algorithm.Logic\\Algorithm.Logic.Shared\\Algorithm.Logic.Shared.csproj",
-      "packagesPath": "C:\\Users\\stefano.caberlon\\.nuget\\packages\\",
-      "outputPath": "C:\\teste\\Algorithm.Logic\\Algorithm.Logic.Shared\\obj\\",
+      "projectPath": "C:\\Projetos\\Algorithm.Logic\\Algorithm.Logic.Shared\\Algorithm.Logic.Shared.csproj",
+      "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\Algorithm.Logic\\Algorithm.Logic.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\stefano.caberlon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

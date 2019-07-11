@@ -23,3 +23,4 @@ C:\teste\Algorithm.Logic\Algorithm.Logic.Shared\obj\Debug\netstandard2.0\Algorit
 C:\teste\Algorithm.Logic\Algorithm.Logic.Shared\obj\Debug\netstandard2.0\Algorithm.Logic.Shared.AssemblyInfo.cs
 C:\teste\Algorithm.Logic\Algorithm.Logic.Shared\obj\Debug\netstandard2.0\Algorithm.Logic.Shared.dll
 C:\teste\Algorithm.Logic\Algorithm.Logic.Shared\obj\Debug\netstandard2.0\Algorithm.Logic.Shared.pdb
+C:\Projetos\Algorithm.Logic\Algorithm.Logic.Shared\obj\Debug\netstandard2.0\Algorithm.Logic.Shared.csprojAssemblyReference.cache

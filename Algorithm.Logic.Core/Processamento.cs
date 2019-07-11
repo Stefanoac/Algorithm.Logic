@@ -55,6 +55,7 @@ namespace Algorithm.Logic.Core
         /// <summary>
         /// Valida se tem X com digito depois
         /// Valida se veio apenas cordenadas corretas (n, s, l, o, x)
+        /// Valida se o numero está entre 1 e 2147483647
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
@@ -62,17 +63,6 @@ namespace Algorithm.Logic.Core
         {
             return (Regex.IsMatch(input, @"[X]\d") || Regex.IsMatch(input, @"[^SNLOX0-9]")
                    || Regex.IsMatch(input, @"^\d") || !Regex.IsMatch(input, @"[A-Z]([1-9]|214748364[0-6])?[A-Z]"));
-
-            //var numbers = Regex.Split(input, @"\D+");
-
-            //foreach (string value in numbers)
-            //{
-            //    if (!string.IsNullOrEmpty(value))
-            //    {
-            //        int i = int.Parse(value);
-            //        Console.WriteLine("Number: {0}", i);
-            //    }
-            //}
         }
     }
 }
